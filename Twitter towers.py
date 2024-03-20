@@ -4,8 +4,8 @@ import math
 def creation_rectangle():
     height = int(input("Please enter the height of the tower: "))
     width = int(input("Please enter the width of the tower: "))
-    if height == width or int(height) == 5 + int(width) or int(height) + 5 == int(width):
-        print("The area of the rectangle is:", int(height) * int(width))
+    if height == width or height == 5 + width or height + 5 == width:
+        print("The area of the rectangle is:", height * width)
     else:
         print("The perimeter of the rectangle is:", 2 * (height + width))
 
