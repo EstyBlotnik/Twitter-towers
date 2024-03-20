@@ -8,20 +8,25 @@ def creation_rectangle():
     height = int(input("Please enter the height of the tower: ")) # Correct input is guaranteed
     width = int(input("Please enter the width of the tower: ")) # Correct input is guaranteed
     if height == width or height > 5 + width or height + 5 < width:
-        print("The area of the rectangle is:", height * width)
+        print("\nThe area of the rectangle is:", height * width)
     else:
-        print("The scope of the rectangle is:", 2 * (height + width))
+        print("\nThe scope of the rectangle is:", 2 * (height + width))
 
 #This function gets the length and width of a triangle and draws it on the screen
 def draw_triangular(height, width):
     if width % 2 == 0 or width > 2 * height:
-        print("Cannot print the triangular")
+        print("Cannot print this triangular tower triangular")
         return
+    print("A triangular tower in width:", width, "and height:",height, "will look like this:\n")
     for i in range(width // 2):
         print(" ", end="")
     print("*")
     mid_lines = (width - 3) // 2
-    times = (height - 2) // mid_lines
+    if(height==2):
+        times=0
+    else:
+        times = (height - 2) // mid_lines
+    
     rest = height - 2 - mid_lines * times
     for j in range(rest):
         for i in range(width // 2 - 1):
@@ -59,13 +64,18 @@ def creation_triangular():
 # This main function presents a main menu to the user and calls the appropriate function for the request.
 def main():
     option = 0
+    print("Welcome to our program,")
+    print("We will help you research different types of towers in the most convenient way.")
     while option != 3:
-        print("Main menu\nPlease select the tower you would like to build:")
+        print("\nMain menu\nPlease select the tower you would like to build:")
         print("1. Rectangle tower")
         print("2. Triangular tower")
         print("3. End the program")
-        choice = input()
-        option = int(choice)
+        choice = input() 
+        try:           
+            option = int(choice)
+        except ValueError:
+            print("")
         if option == 1:
             creation_rectangle()
         elif option == 2:
