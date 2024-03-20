@@ -1,20 +1,18 @@
 import math
 
-
+# This function takes dimensions of a rectangle by input from the user,
+# if the rectangle is a square or the difference between the lengths of its sides is greater than 5, 
+# the area of the rectangle will be printed
+# else, its scope will be printed
 def creation_rectangle():
-    height = int(input("Please enter the height of the tower: "))
-    width = int(input("Please enter the width of the tower: "))
-    if height == width or height == 5 + width or height + 5 == width:
+    height = int(input("Please enter the height of the tower: ")) # Correct input is guaranteed
+    width = int(input("Please enter the width of the tower: ")) # Correct input is guaranteed
+    if height == width or height > 5 + width or height + 5 < width:
         print("The area of the rectangle is:", height * width)
     else:
-        print("The perimeter of the rectangle is:", 2 * (height + width))
+        print("The scope of the rectangle is:", 2 * (height + width))
 
-    if height == width or height == 5 + width or height + 5 == width:
-        print("The area of the rectangle is:", height * width)
-    else:
-        print("The perimeter of the rectangle is:", 2 * height + width)
-
-
+#This function gets the length and width of a triangle and draws it on the screen
 def draw_triangular(height, width):
     if width % 2 == 0 or width > 2 * height:
         print("Cannot print the triangular")
@@ -40,7 +38,9 @@ def draw_triangular(height, width):
         print("*", end="")
     print("\n")
 
-
+# This function takes dimensions of a triangle by input from the user,
+# then asking for input from the user, if the user selects '1', they will be shown the perimeter of the triangle.
+# if  the user selects '2' the draw_triangular function will be called which will draw the triangle on the screen.
 def creation_triangular():
     height = int(input("Please enter the height of the tower: "))
     width = int(input("Please enter the width of the tower: "))
@@ -56,7 +56,7 @@ def creation_triangular():
     elif option == '2':
         draw_triangular(height, width)
 
-
+# This main function presents a main menu to the user and calls the appropriate function for the request.
 def main():
     option = 0
     while option != 3:
