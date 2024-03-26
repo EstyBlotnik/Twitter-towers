@@ -21,12 +21,13 @@ def draw_triangular(height, width):
     for i in range(width // 2):
         print(" ", end="")
     print("*")
-    mid_lines = (width - 3) // 2
-    if(height==2):
+    # How many line sizes are there that are not the base or vertex of the triangle:
+    mid_lines = (width - 3) // 2 
+    if(mid_lines==0):
         times=0
     else:
         times = (height - 2) // mid_lines
-    
+    # How much is left over from the division?:
     rest = height - 2 - mid_lines * times
     for j in range(rest):
         for i in range(width // 2 - 1):
