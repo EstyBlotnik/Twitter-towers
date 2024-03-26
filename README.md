@@ -26,9 +26,16 @@ You can see an example where the program prints a scope: <br />
 <img width="229" alt="image" src="https://github.com/EstyBlotnik/Twitter-towers/assets/118099586/7ec63f1e-d27a-485a-a8fb-51cc13104e22"> <br />
 ## By pressing the number 2:
 You will be asked to enter the height and width of the tower:<br />
-<img width="238" alt="image" src="https://github.com/EstyBlotnik/Twitter-towers/assets/118099586/5de51639-7b3c-4b82-9350-fa763e8a5804"> <br />
+<img width="256" alt="image" src="https://github.com/EstyBlotnik/Twitter-towers/assets/118099586/0fa85682-8bde-4d0b-abc9-984845e7c47c"> <br/ >
 Two options will be offered:
 The first option is to calculate the perimeter of the triangle and the second option is to print the triangle: <br/ >
+<img width="264" alt="image" src="https://github.com/EstyBlotnik/Twitter-towers/assets/118099586/3ca1fe92-493d-4867-b630-76368c679dd4"> <br/>
+### By pressing the number 1:
+<img width="292" alt="image" src="https://github.com/EstyBlotnik/Twitter-towers/assets/118099586/636347cb-32e4-4614-9b0d-f3f1e07500c4"> <br/ >
+### By pressing the number 2:
+<img width="375" alt="image" src="https://github.com/EstyBlotnik/Twitter-towers/assets/118099586/ad7109b5-0665-4a5d-b3c9-888a0ea064d1">
+
+
 
 
 
