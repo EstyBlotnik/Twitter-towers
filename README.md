@@ -35,10 +35,10 @@ The first option is to calculate the perimeter of the triangle and the second op
 ### By pressing the number 2:
 <img width="375" alt="image" src="https://github.com/EstyBlotnik/Twitter-towers/assets/118099586/ad7109b5-0665-4a5d-b3c9-888a0ea064d1"> <br />
 ### Others:
-<img width="242" alt="image" src="https://github.com/EstyBlotnik/Twitter-towers/assets/118099586/5b165d72-1e73-4efb-8828-876bcf1d2fe5">
+<img width="242" alt="image" src="https://github.com/EstyBlotnik/Twitter-towers/assets/118099586/5b165d72-1e73-4efb-8828-876bcf1d2fe5"><br />
 
 ## By pressing a key that does not exist in the menu:
-An error message will be received and the menu will be printed again:
+An error message will be received and the menu will be printed again:<br />
 <img width="310" alt="image" src="https://github.com/EstyBlotnik/Twitter-towers/assets/118099586/0647882f-28fc-42f5-b4a2-d39d2755b3d4">
 ## By pressing the number 3:
 The program will end successfully
